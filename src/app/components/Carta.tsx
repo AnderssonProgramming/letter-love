@@ -62,7 +62,8 @@ const Carta = () => {
                 programador 👨🏽‍💻 y deportista 🏀. <br /> <span style={{ fontSize: "0.9em", color: "grey" }}>
                   PD: Si esta carta fuera un programa, su salida sería:
                 </span> 
-                <br /> <code>"Gracias por darme la vida mamá, Te amo demasiado ❤️💝."</code>
+                  {/* eslint-disable-next-line react/no-unescaped-entities */}
+                  <code>"Gracias por darme la vida mamá, Te amo demasiado ❤️💝."</code>
               </p>
             </div>
           </div>
